@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1679482938">
+  <project timestamp="1679482938">
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Application\Http\Controllers\ProductController.php">
+      <class name="ECommerce\Inventory\Application\Http\Controllers\ProductController" namespace="global">
+        <metrics complexity="5" methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="2" elements="11" coveredelements="3"/>
+      </class>
+      <line num="13" type="method" name="index" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="15" type="stmt" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <line num="20" type="method" name="show" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="25" type="method" name="store" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="30" type="method" name="update" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="35" type="method" name="delete" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <metrics loc="40" ncloc="40" classes="1" methods="5" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="2" elements="11" coveredelements="3"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Application\Http\Request\StoreProductRequest.php">
+      <class name="ECommerce\Inventory\Application\Http\Requests\StoreProductRequest" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+      </class>
+      <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <metrics loc="31" ncloc="21" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Application\Http\Request\UpdateProductRequest.php">
+      <class name="ECommerce\Inventory\Application\Http\Requests\UpdateProductRequest" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+      </class>
+      <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <metrics loc="31" ncloc="21" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="6" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Application\Http\Resources\ProductResource.php">
+      <class name="ECommerce\Inventory\Application\Http\Resources\ProductResource" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="15" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <metrics loc="20" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Contracts\DataTransferObjects\ProductDto.php">
+      <class name="ECommerce\Inventory\Contracts\DataTransferObjects\ProductDto" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="7" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="14" type="stmt" count="2"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Contracts\Exceptions\ProductInactiveException.php">
+      <class name="ECommerce\Inventory\Contracts\Exceptions\ProductInactiveException" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="12" type="stmt" count="1"/>
+      <metrics loc="14" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Contracts\Exceptions\ProductNotFoundException.php">
+      <class name="ECommerce\Inventory\Contracts\Exceptions\ProductNotFoundException" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="12" type="stmt" count="2"/>
+      <metrics loc="14" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Contracts\Exceptions\ProductOutOfStockException.php">
+      <class name="ECommerce\Inventory\Contracts\Exceptions\ProductOutOfStockException" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="12" type="stmt" count="1"/>
+      <metrics loc="14" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Contracts\ProductService.php">
+      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Domain\Models\Product.php">
+      <class name="ECommerce\Inventory\Domain\Models\Product" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="17" type="method" name="newFactory" visibility="protected" complexity="1" crap="1" count="5"/>
+      <line num="19" type="stmt" count="5"/>
+      <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Infrastructure\Database\Factories\ProductFactory.php">
+      <class name="ECommerce\Inventory\Infrastructure\Database\Factories\ProductFactory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="8" coveredelements="8"/>
+      </class>
+      <line num="24" type="method" name="definition" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="26" type="stmt" count="5"/>
+      <line num="27" type="stmt" count="5"/>
+      <line num="28" type="stmt" count="5"/>
+      <line num="29" type="stmt" count="5"/>
+      <line num="30" type="stmt" count="5"/>
+      <line num="31" type="stmt" count="5"/>
+      <line num="32" type="stmt" count="5"/>
+      <metrics loc="35" ncloc="25" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="8" coveredelements="8"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Infrastructure\Database\Migrations\2023_01_24_090326_create_products_table.php">
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="21" type="stmt" count="8"/>
+      <line num="22" type="stmt" count="8"/>
+      <line num="23" type="stmt" count="8"/>
+      <line num="24" type="stmt" count="8"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="8"/>
+      <metrics loc="37" ncloc="27" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="13" coveredelements="12"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Infrastructure\Database\Seeders\ProductSeeder.php">
+      <class name="ECommerce\Inventory\Infrastructure\Database\Seeders\ProductSeeder" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="15" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <metrics loc="20" ncloc="15" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Infrastructure\Services\ProductService.php">
+      <class name="ECommerce\Inventory\Infrastructure\Services\ProductService" namespace="global">
+        <metrics complexity="6" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
+      </class>
+      <line num="14" type="method" name="decrementStock" visibility="public" complexity="4" crap="4" count="4"/>
+      <line num="16" type="stmt" count="4"/>
+      <line num="19" type="stmt" count="4"/>
+      <line num="20" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="3"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="2"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="31" type="stmt" count="1"/>
+      <line num="34" type="method" name="getProductById" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="36" type="stmt" count="2"/>
+      <line num="38" type="stmt" count="2"/>
+      <line num="39" type="stmt" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="46" type="stmt" count="1"/>
+      <metrics loc="49" ncloc="49" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\Providers\InventoryServiceProvider.php">
+      <class name="ECommerce\Inventory\Providers\InventoryServiceProvider" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+      </class>
+      <line num="15" type="method" name="boot" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="23" type="method" name="register" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="26" type="stmt" count="8"/>
+      <metrics loc="28" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Inventory\routes.php">
+      <line num="6" type="stmt" count="8"/>
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="9" type="stmt" count="8"/>
+      <line num="10" type="stmt" count="8"/>
+      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="5" coveredelements="5"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Application\Http\Controllers\OrderController.php">
+      <class name="ECommerce\Order\Application\Http\Controllers\OrderController" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="16" elements="20" coveredelements="18"/>
+      </class>
+      <line num="19" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="26" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="31" type="method" name="store" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="38" type="stmt" count="1"/>
+      <line num="39" type="stmt" count="1"/>
+      <line num="40" type="stmt" count="1"/>
+      <line num="41" type="stmt" count="1"/>
+      <line num="43" type="stmt" count="1"/>
+      <line num="46" type="stmt" count="1"/>
+      <line num="48" type="stmt" count="1"/>
+      <line num="49" type="stmt" count="1"/>
+      <line num="50" type="stmt" count="1"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="55" type="stmt" count="1"/>
+      <metrics loc="58" ncloc="56" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="16" elements="20" coveredelements="18"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Application\Http\Requests\OrderStoreRequest.php">
+      <class name="ECommerce\Order\Application\Http\Requests\OrderStoreRequest" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+      </class>
+      <line num="14" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="24" type="method" name="rules" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <metrics loc="31" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Application\Http\Resources\OrderResource.php">
+      <class name="ECommerce\Order\Application\Http\Resources\OrderResource" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="15" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="17" type="stmt" count="1"/>
+      <metrics loc="20" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Contracts\Events\OrderFulfilled.php">
+      <class name="ECommerce\Order\Contracts\Events\OrderFulfilled" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="21" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <metrics loc="26" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Domain\Exceptions\EmptyOrderException.php">
+      <class name="ECommerce\Order\Domain\Exceptions\EmptyOrderException" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="10" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Domain\Models\Cart.php">
+      <class name="ECommerce\Order\Domain\Models\Cart" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="14" type="method" name="newFactory" visibility="protected" complexity="1" crap="1" count="1"/>
+      <line num="16" type="stmt" count="1"/>
+      <line num="19" type="method" name="cartItems" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="21" type="stmt" count="1"/>
+      <metrics loc="24" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Domain\Models\CartItem.php">
+      <class name="ECommerce\Order\Domain\Models\CartItem" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="18" type="method" name="newFactory" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="23" type="method" name="cart" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <metrics loc="28" ncloc="28" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Domain\Models\Order.php">
+      <class name="ECommerce\Order\Domain\Models\Order" namespace="global">
+        <metrics complexity="5" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="16" elements="22" coveredelements="18"/>
+      </class>
+      <line num="23" type="method" name="newFactory" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="28" type="method" name="orderLines" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <line num="33" type="method" name="addOrderLine" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="38" type="stmt" count="1"/>
+      <line num="39" type="stmt" count="1"/>
+      <line num="40" type="stmt" count="1"/>
+      <line num="42" type="stmt" count="1"/>
+      <line num="45" type="method" name="checkout" visibility="public" complexity="2" crap="2.01" count="1"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="51" type="stmt" count="1"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="53" type="stmt" count="1"/>
+      <line num="54" type="stmt" count="1"/>
+      <line num="56" type="stmt" count="1"/>
+      <line num="57" type="stmt" count="1"/>
+      <line num="58" type="stmt" count="1"/>
+      <metrics loc="61" ncloc="61" classes="1" methods="4" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="16" elements="22" coveredelements="18"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Domain\Models\OrderHistory.php">
+      <class name="ECommerce\Order\Domain\Models\OrderHistory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="13" type="method" name="newFactory" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <metrics loc="18" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Domain\Models\OrderLine.php">
+      <class name="ECommerce\Order\Domain\Models\OrderLine" namespace="global">
+        <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="1" elements="6" coveredelements="2"/>
+      </class>
+      <line num="21" type="method" name="newFactory" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="26" type="method" name="order" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="31" type="method" name="subtotal" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <metrics loc="36" ncloc="36" classes="1" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="1" elements="6" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Domain\Models\OrderStatus.php">
+      <class name="ECommerce\Order\Domain\Models\OrderStatus" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="13" type="method" name="newFactory" visibility="protected" complexity="1" crap="2" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <metrics loc="18" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Domain\Models\TaxRate.php">
+      <class name="ECommerce\Order\Domain\Models\TaxRate" namespace="global">
+        <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+      </class>
+      <line num="13" type="method" name="newFactory" visibility="protected" complexity="1" crap="1" count="1"/>
+      <line num="15" type="stmt" count="1"/>
+      <line num="18" type="method" name="current" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="20" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="1"/>
+      <metrics loc="33" ncloc="32" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Factories\CartFactory.php">
+      <class name="ECommerce\Order\Infrastructure\Database\Factories\CartFactory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </class>
+      <line num="20" type="method" name="definition" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <metrics loc="27" ncloc="19" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Factories\CartItemFactory.php">
+      <class name="ECommerce\Order\Infrastructure\Database\Factories\CartItemFactory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+      </class>
+      <line num="21" type="method" name="definition" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <metrics loc="30" ncloc="22" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Factories\OrderFactory.php">
+      <class name="ECommerce\Order\Infrastructure\Database\Factories\OrderFactory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="19" type="method" name="definition" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <metrics loc="26" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Factories\OrderHistoryFactory.php">
+      <class name="ECommerce\Order\Infrastructure\Database\Factories\OrderHistoryFactory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="20" type="method" name="definition" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <metrics loc="27" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Factories\OrderLineFactory.php">
+      <class name="ECommerce\Order\Infrastructure\Database\Factories\OrderLineFactory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="19" type="method" name="definition" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <metrics loc="26" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Factories\OrderStatusFactory.php">
+      <class name="ECommerce\Order\Infrastructure\Database\Factories\OrderStatusFactory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="20" type="method" name="definition" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <metrics loc="27" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Factories\TaxRateFactory.php">
+      <class name="ECommerce\Order\Infrastructure\Database\Factories\TaxRateFactory" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </class>
+      <line num="19" type="method" name="definition" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="21" type="stmt" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <metrics loc="28" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Migrations\2023_01_25_155450_create_tax_rates_table.php">
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="21" type="stmt" count="8"/>
+      <line num="22" type="stmt" count="8"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="8"/>
+      <metrics loc="35" ncloc="25" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="11" coveredelements="10"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Migrations\2023_01_25_155505_create_carts_table.php">
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="21" type="stmt" count="8"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="8"/>
+      <metrics loc="34" ncloc="24" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="10" coveredelements="9"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Migrations\2023_01_25_155514_create_cart_items_table.php">
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="21" type="stmt" count="8"/>
+      <line num="22" type="stmt" count="8"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="8"/>
+      <metrics loc="35" ncloc="25" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="11" coveredelements="10"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Migrations\2023_01_25_155538_create_orders_table.php">
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="21" type="stmt" count="8"/>
+      <line num="22" type="stmt" count="8"/>
+      <line num="23" type="stmt" count="8"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="8"/>
+      <metrics loc="36" ncloc="26" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="11" elements="12" coveredelements="11"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Migrations\2023_01_25_155619_create_order_statuses_table.php">
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="21" type="stmt" count="8"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="8"/>
+      <metrics loc="34" ncloc="24" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="10" coveredelements="9"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Migrations\2023_01_25_155629_create_order_lines_table.php">
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="21" type="stmt" count="8"/>
+      <line num="22" type="stmt" count="8"/>
+      <line num="23" type="stmt" count="8"/>
+      <line num="24" type="stmt" count="8"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="8"/>
+      <metrics loc="37" ncloc="27" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="12" elements="13" coveredelements="12"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Migrations\2023_01_25_155638_create_order_histories_table.php">
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="18" type="stmt" count="8"/>
+      <line num="19" type="stmt" count="8"/>
+      <line num="20" type="stmt" count="8"/>
+      <line num="21" type="stmt" count="8"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="8"/>
+      <metrics loc="34" ncloc="24" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="10" coveredelements="9"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Infrastructure\Database\Seeders\OrderSeeder.php">
+      <class name="ECommerce\Order\Infrastructure\Database\Seeders\OrderSeeder" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="18" type="method" name="run" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <metrics loc="24" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Providers\EventServiceProvider.php">
+      <class name="ECommerce\Order\Providers\EventServiceProvider" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="27" type="stmt" count="8"/>
+      <metrics loc="29" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\Providers\OrderServiceProvider.php">
+      <class name="ECommerce\Order\Providers\OrderServiceProvider" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </class>
+      <line num="14" type="method" name="register" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="16" type="stmt" count="8"/>
+      <line num="17" type="stmt" count="8"/>
+      <line num="25" type="method" name="boot" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="27" type="stmt" count="8"/>
+      <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Order\routes.php">
+      <line num="6" type="stmt" count="8"/>
+      <line num="7" type="stmt" count="8"/>
+      <line num="8" type="stmt" count="8"/>
+      <line num="9" type="stmt" count="8"/>
+      <line num="10" type="stmt" count="8"/>
+      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="5" coveredelements="5"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Payment\Contracts\PaymentService.php">
+      <metrics loc="9" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Payment\Infrastructure\Services\PaddlePaymentService.php">
+      <class name="ECommerce\Payment\Infrastructure\Services\PaddlePaymentService" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="11" type="method" name="charge" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Payment\Infrastructure\Services\StripePaymentService.php">
+      <class name="ECommerce\Payment\Infrastructure\Services\StripePaymentService" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="11" type="method" name="charge" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Payment\Providers\PaymentServiceProvider.php">
+      <class name="ECommerce\Payment\Providers\PaymentServiceProvider" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="27" type="method" name="boot" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="34" type="stmt" count="8"/>
+      <line num="41" type="method" name="register" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="44" type="stmt" count="8"/>
+      <metrics loc="46" ncloc="27" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Shipping\Domain\Listeners\NotifyWareHouse.php">
+      <class name="ECommerce\Shipping\Domain\Listeners\NotifyWareHouse" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="28" type="method" name="handle" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <metrics loc="35" ncloc="22" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Shipping\Providers\EventServiceProvider.php">
+      <class name="ECommerce\Shipping\Providers\EventServiceProvider" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="29" type="method" name="boot" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="32" type="stmt" count="8"/>
+      <metrics loc="34" ncloc="23" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="C:\xampp\htdocs\modular-monolith\src\Shipping\Providers\ShippingServiceProvider.php">
+      <class name="ECommerce\Shipping\Providers\ShippingServiceProvider" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </class>
+      <line num="25" type="method" name="boot" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="32" type="stmt" count="8"/>
+      <line num="39" type="method" name="register" visibility="public" complexity="1" crap="1" count="8"/>
+      <line num="41" type="stmt" count="8"/>
+      <metrics loc="44" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+    </file>
+    <metrics files="53" loc="1489" ncloc="1200" classes="40" methods="63" coveredmethods="35" conditionals="0" coveredconditionals="0" statements="244" coveredstatements="192" elements="307" coveredelements="227"/>
+  </project>
+</coverage>

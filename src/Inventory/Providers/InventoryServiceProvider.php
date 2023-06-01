@@ -2,12 +2,14 @@
 
 namespace ECommerce\Inventory\Providers;
 
+use ECommerce\Inventory\Contracts\ProductService as ProductServiceContract;
+use ECommerce\Inventory\Infrastructure\Services\ProductService;
 use Illuminate\Support\ServiceProvider;
 
 class InventoryServiceProvider extends ServiceProvider
 {
     public $bindings = [
-
+        ProductServiceContract::class => ProductService::class,
     ];
 
     public function boot()
